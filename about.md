@@ -13,5 +13,5 @@ Norag Cat es una carpeta donde se irá rellenando con herramientas libres, docum
 
 ### Agradecimientos
 * El **logo pertenece** al libro "Sopa de ortiga" con la ilustración de [Olaf Ladousse](http://www.olafladousse.com/).
-* (The Pymiento Proyect)[http://thepymientoproject.com/]
-* (HackLab Almería)[http://hacklabalmeria.net/]
+* [The Pymiento Proyect](http://thepymientoproject.com/)
+* [HackLab Almería](http://hacklabalmeria.net/)

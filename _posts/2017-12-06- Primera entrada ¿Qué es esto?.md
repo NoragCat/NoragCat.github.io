@@ -2,8 +2,7 @@
 layout: post
 title:  "Primera entrada: ¿Qué es esto?"
 date:   2017-12-06 16:31:45
-description: Primera entrada del blog, para explicar en que consiste el proyecto que voy a realizar, cual
-es son los objetivos y en que estado de desarrollo se encuentra.
+description: Primera entrada del blog, para explicar en que consiste el proyecto que voy a realizar, cual es son los objetivos y en que estado de desarrollo se encuentra.
 categories:
 - blog
 - bienvenido
