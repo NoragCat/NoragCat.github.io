@@ -19,6 +19,6 @@ La primera pincelada del proyecto se expuso en la [Maker Faire Roma](http://www.
 
 Las principales referencias de este proyecto son [Bast-Instrumets](http://www.bastl-instruments.com/), una comunidad de creación de herramientas de música electrónica, y el libro de [Sopa de ortiga de Olaf Ladousse](http://www.olafladousse.com/), donde se explica una técnica llamada Circuit Bending muy utilizada en este proyecto.
 
-La sede principal es (MakeSpace Madrid)[http://makespacemadrid.org/] y cuenta con la coolaboración de (The Pymiento Proyect)[http://thepymientoproject.com/] y de (HackLab Almería)[http://hacklabalmeria.net/].
+La sede de Norag Cat es (MakeSpace Madrid)[http://makespacemadrid.org/] y cuenta con la coolaboración de (The Pymiento Proyect)[http://thepymientoproject.com/] y de (HackLab Almería)[http://hacklabalmeria.net/].
 
 amil101@debian:~$ EXIT
