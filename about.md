@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+**Norag Cat** es un proyecto de **Hardware/Software Libre** para la creación musical, enfocado concretamente a **instrumentos DIY modulares** y de bajo coste.
 
-### More Information
+Norag Cat es una carpeta donde se irá rellenando con herramientas libres, documentación, hazañas, etc. **No tendrá un producto final**, sino que será un ecosistema de trabajos con la linea de creación de música electrónica.
 
-A place to include any other types of information that you'd like to include about yourself.
+### Autores
+* [Fran Acién](https://github.com/acien101) - Creador
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+### Agradecimientos
+* El **logo pertenece** al libro "Sopa de ortiga" con la ilustración de [Olaf Ladousse](http://www.olafladousse.com/).
+* (The Pymiento Proyect)[http://thepymientoproject.com/]
+* (HackLab Almería)[http://hacklabalmeria.net/]
