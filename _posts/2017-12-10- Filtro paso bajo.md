@@ -20,6 +20,7 @@ Se trata de un circuito muy común que elimina las altas frecuencias y deja pasa
 ![Esquemático](../images/lowPassFilter.png)
 
 La función de transferencia define la relación entre la señal de salida y la de entrada:
+
 $$
 H(j\omega) = \frac{V_{OUT}}{V_{IN}}
 \qquad
@@ -62,16 +63,19 @@ H(j\omega) = \frac{V_{OUT}}{V_{IN}} = \frac{1}{1 + j\omega RC} = {\mid H\mid}_{\
 $$
 
 La función de transferencia expresada en forma binómica:
+
 $$
-H(j\omega) = \frac{1}{1 + j\omega RC} = \frac{1}{1 + j\omega RC} \cdot \frac{1 - j\omega RC}{1 - j\omega RC} =  \frac{1 - j\omega RC}{1^2 + {\omega}^2 R^2C^2} = \frac{1}{1 + {\omega}^2 R^2C^2} - j\frac{\omega RC}{1 + {\omega}^2 R^2C^2}
+H(j\omega) = \frac{1}{1 + j\omega RC} = \frac{1}{1 + j\omega RC} \cdot \frac{1 - j\omega RC}{1 - j\omega RC}
+\\
+=  \frac{1 - j\omega RC}{1^2 + {\omega}^2 R^2C^2} = \frac{1}{1 + {\omega}^2 R^2C^2} - j\frac{\omega RC}{1 + {\omega}^2 R^2C^2}
 $$
 
 Expresado en forma polar:
 
 $$
 \mid H(j\omega)\mid = \sqrt{\frac{1}{1+{\omega}^2R^2C^2}}
-\qquad
-\beta = \arctan \Bigg (\frac{-\frac{\omega RC}{1 + {\omega}^2 R^2C^2}}{\frac{1}{1 + {\omega}^2 R^2C^2}}\bigg) = \arctan (-\omega RC) = -\arctan (\omega RC)
+\\
+\beta = \arctan \Bigg (\frac{-\frac{\omega RC}{1 + {\omega}^2 R^2C^2}}{\frac{1}{1 + {\omega}^2 R^2C^2}}\bigg) = \arctan (-\omega RC) = -\arctan (\omega RC);
 $$
 
 $$
@@ -82,7 +86,9 @@ $$
 Con lo que llegamos a:
 
 $$
-V_{OUT} = V_{0} {\mid H\mid }_{\phi + \beta} = V_{0}\mid H(j\omega)\mid\cos(\omega t + \phi) = V_{0} \sqrt{\frac{1}{1+{\omega}^2R^2C^2}} \cos(\omega t + \phi -\arctan (\omega RC))  
+V_{OUT} = V_{0} {\mid H\mid }_{\phi + \beta} = V_{0}\mid H(j\omega)\mid\cos(\omega t + \phi)
+\\
+V_{OUT} = V_{0} \sqrt{\frac{1}{1+{\omega}^2R^2C^2}} \cos(\omega t + \phi -\arctan (\omega RC))  
 $$
 
 Como vemos la amplitud de la señal final se ve afectada con el módulo de la función de transferencia. La funcion de tranferencia, \\(H(j\omega)\\), depende de la frecuencia angular, y esta modifica tanto la amplitud de la señal como la fase de la señal de salida. Por tanto, la función de transferencia, \\({\mid H\mid}_{\beta}\\), representa la atenuación de la señal, \\(\mid H(j\omega)\mid\\), y el desfase de la salida, \\(\beta\\).
@@ -124,6 +130,7 @@ En nuestros circuto el diagrama de Bode lo representariamos así:
 
 ##### Módulo
 Primero sacamos los polos y los ceros:
+
 $$
 H(s = j\omega) = \frac{1}{1+sRC} = \frac{1}{RC(\frac{1}{RC} +s)} = \frac{\frac{1}{RC}}{\frac{1}{RC} +s} \Rightarrow W_{p} = \frac{1}{RC}  
 $$
