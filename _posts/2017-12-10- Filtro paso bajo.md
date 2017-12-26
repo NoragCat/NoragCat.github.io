@@ -6,13 +6,14 @@ description: Explicación del funcionamiento del filtro paso bajo.
 categories:
 - Análisis de circuitos
 - Análisis de circuitos en régimen sinusoidal permanente
+- Filtro
 - Filtro paso bajo
 - Low Pass Filter
 - Función de transferencia
 - Diagramas de Bode
 ---
 
-En este post intentaré explicar el funcionamiento el filtro paso bajo desde una forma matemática. Para entenderlo hará falta entender un mínimo el análisis de circuitos en el régimen sinusoidal permanente, los números complejos y los fasores.
+En este post intentaré explicar el funcionamiento el filtro paso bajo desde una forma matemática. Para entenderlo hará falta saber un mínimo el análisis de circuitos en el régimen sinusoidal permanente, los números complejos y los fasores.
 
 ### ¿Qué es un filtro paso bajo?
 Se trata de un circuito muy común que elimina las altas frecuencias y deja pasar las bajas frecuencias. Hay dos tipos de filtros, los pasivos y los activos. Los pasivos, están constituidos por resistencias, condensadores y bobinas, en cambio, los activos utilizan además amplificadores operacionales. En este caso vamos a estudiar el filtro paso bajo pasivo, que se puede hacer por medio de una resistencia y un condensador:
