@@ -31,7 +31,8 @@ El amplificador operacional posee las siguientes características:
 * \\(R_d = \infty\\)
 * \\(R_0 = 0\\)
 * \\(i_p = i_n = 0\\)
-* \\(V_P = V_N\\)
+* \\(V_0 = a(V_P - V_N)\\)
+* \\(a = \infty)\\. Es decir que de la expresión anterior, podemos decir que \\(V_P = V_N\\)
 
 donde \\(i_p\\) e \\(i_n\\) son las corrientes establecidas por las entradas no inversora e inversora. Se trata de un dispositivo muy usado porque se puede utilizar, como su nombre indica, para realizar operaciones dependiendo de como se configuren sus entradas. En nuestro caso lo utilizaremos para crear un filtro paso bajo con ganancia.
 
