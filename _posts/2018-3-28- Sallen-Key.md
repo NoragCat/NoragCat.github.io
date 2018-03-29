@@ -222,7 +222,7 @@ $$
 
 \\
 
-\frac{N_2 K}{d} = K \frac{Z_1 Z_2 Z_3}{Z_2 Z_3 Z_4} = K \frac{Z1}{Z4}
+\frac{N_2 K}{d} = K \frac{Z_1 Z_2 Z_3}{Z_2 Z_3 Z_4} = K \frac{Z_1}{Z_4}
 
 $$
 
@@ -230,7 +230,7 @@ Juntando todo lo anterior, llegamos a:
 
 $$
 
-\frac{V_0}{V_I} = \frac{K}{\frac{Z_1 Z_2}{Z_3 Z_4} + \frac{Z_1}{Z_3} \frac{Z_2}{Z_3} + \frac{Z_1 (1 - K)}{Z_4} + 1}
+\frac{V_0}{V_I} = \frac{K}{\frac{Z_1 Z_2}{Z_3 Z_4} + \frac{Z_1}{Z_3} + \frac{Z_2}{Z_3} + \frac{Z_1 (1 - K)}{Z_4} + 1}
 
 $$
 
